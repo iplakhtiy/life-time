@@ -1,0 +1,16 @@
+@mixin clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border-radius: 3px;
+
+  background: rgba(255, 255, 255, 0.23);
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}

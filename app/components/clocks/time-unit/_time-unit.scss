@@ -1,0 +1,21 @@
+.time-unit-container {
+  display: flex;
+  flex-direction: column;
+
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+
+  .time-unit-title {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+  .time-unit-time {
+    padding: 15px;
+    display: inline-block;
+  }
+}
